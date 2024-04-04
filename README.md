@@ -26,9 +26,9 @@ cargo build --release
 ./customer_segment <excel_file> <column_header_name> <customer_segment_id>
 ```
 
-<excel_file>: Path to the Excel file containing customer numbers and segment IDs.
-<column_header_name>: Column header for the customer number
-<customer_segment_id>: The ID of the customer segment. This will be used to name the output SQL file.
+- <excel_file>: Path to the Excel file containing customer numbers and segment IDs.
+- <column_header_name>: Column header for the customer number
+- <customer_segment_id>: The ID of the customer segment. This will be used to name the output SQL file.
 
 ## Example
 Suppose we have an Excel file named customer_data.xlsx containing customer numbers and segment IDs, and we want to generate SQL statements for the customer segment with ID CG_BB_A7_Werkzaamheden. We can use the following command:
